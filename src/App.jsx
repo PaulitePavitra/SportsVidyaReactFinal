@@ -22,7 +22,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SportsVidyaReactFinal/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
